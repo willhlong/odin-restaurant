@@ -1,0 +1,25 @@
+.tabs {
+    width: 25%;
+}
+
+body {
+    margin: 0;
+    background-image: url(images/leila-issa-4C_k18o_tnk-unsplash.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+}
+
+#content {
+    background-color: tan;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.header-wrapper, .tabs{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: tan;
+    padding: 25px;
+}
