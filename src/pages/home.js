@@ -1,9 +1,10 @@
 import '../style.css';
+import resetContent from '../functions/reset.js';
 import header from './header.js';
 
 function home() {
+    resetContent();
     header();
-    
     const content = document.getElementById('content');
     const homeScreen = document.createElement('div');
     const welcomeMessage = document.createElement('h1');
@@ -18,7 +19,6 @@ function home() {
     menu.textContent = 'Menu';
     homeScreen.appendChild(menu);
     content.appendChild(homeScreen);
-    return content;
 }
 
 export default home;
