@@ -5,4 +5,3 @@ import firstLoad from './functions/firstLoad.js';
 
 firstLoad();
 
-document.body.appendChild(home());
