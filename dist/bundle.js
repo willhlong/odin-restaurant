@@ -1,1 +1,1 @@
-document.get;
+(()=>{"use strict";console.log("home tab"),console.log("about tab"),console.log("menu tab")})();
