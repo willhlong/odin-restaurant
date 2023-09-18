@@ -1,2 +1,3 @@
-const page = document.getElementById('content');
-const header = document.createElement('nav');
+function home() {
+    console.log('home tab');
+}
