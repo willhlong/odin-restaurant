@@ -1,9 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
 body {
     margin: 0;
     background-image: url(images/leila-issa-4C_k18o_tnk-unsplash.jpg);
     background-size: cover;
     min-height: 100vh;
     color: white;
+    font-family: 'Mooli', sans-serif;
 }
 
 #content {
@@ -28,4 +32,18 @@ body {
 
 .header>div, .tabs {
     font-size: 25px;
+}
+
+.home-content {
+    width: 30%;
+    margin: 20% auto;
+    background-color: tan;
+    padding: 15px;
+    border-style: solid;
+    border-color: tan;
+    border-radius: 25px;
+}
+
+.home-content>h1 {
+    font-size: 48px;
 }

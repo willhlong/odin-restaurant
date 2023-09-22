@@ -14,19 +14,19 @@ function header() {
     const tabs = document.createElement('div');
     tabs.classList += 'tabs-wrapper';
 
-    const homeTab = document.createElement('div');
+    const homeTab = document.createElement('a');
     homeTab.classList += 'tabs';
     homeTab.id = 'nav-home-btn';
     homeTab.textContent = 'Home';
     tabs.appendChild(homeTab);
 
-    const menuTab = document.createElement('div');
+    const menuTab = document.createElement('a');
     menuTab.classList += 'tabs';
     menuTab.id = 'nav-menu-btn';
     menuTab.textContent = 'Menu';
     tabs.appendChild(menuTab);
 
-    const aboutTab = document.createElement('div');
+    const aboutTab = document.createElement('a');
     aboutTab.classList += 'tabs';
     aboutTab.id = 'nav-about-btn';
     aboutTab.textContent = 'About Us';
