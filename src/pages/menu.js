@@ -1,12 +1,13 @@
 import resetContent from "../functions/reset";
 import header from './header.js';
+import '../style.css';
 
 function menu() {
     resetContent();
     header();
     const content = document.getElementById('content');
     const message = document.createElement('h1');
-    message.textContent = 'menu';
+    message.textContent = 'Out Menu';
 
     const menuItems = document.createElement('div');
     menuItems.classList.add('menu-items-wrapper');

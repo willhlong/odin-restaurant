@@ -47,3 +47,23 @@ body {
 .home-content>h1 {
     font-size: 48px;
 }
+
+.menu-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px 25px;
+    font-family: 'Mooli', sans-serif;
+    font-size: 36px;
+    width: 75%;
+    margin: auto;
+}
+
+.menu-items-wrapper>* {
+    height: 150px;
+    background-color: tan;
+    padding: 15px;
+    border-style: solid;
+    border-color: tan;
+    border-radius: 25px;
+
+}
